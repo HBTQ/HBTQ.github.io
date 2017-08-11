@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+
+body {
+	font-family: "Sedgwick Ave";
+}
+
+
+
+.meny {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 100vh;
+}
+	
+.meny div {
+	width: 10%;
+	text-align: center;
+	line-height: 10vh;
+	font-size: 30px;
+}
+
+.meny div {
+	width: 15%;
+	box-shadow: 7px 0px 10px #ff6a6a;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav  > li > a {
+	color: #cccccc;
+}
+
+#ett {
+background-color: #ff6a6a;
+box-shadow: 0px 5px 10px 5px #ff6a6a;
+
+}
+
+#två {
+background-color: #ff9f78;
+box-shadow: 0px 5px 10px 5px #ff9f78;
+}
+
+#tre {
+background-color: #fdfd81;	
+box-shadow: 0px 5px 10px 5px #fdfd81;
+}
+
+#fyra {
+background-color: #a8f75d;
+box-shadow: 0px 5px 10px 5px #a8f75d;
+}
+
+#fem {
+background-color: #9180f7;
+box-shadow: 0px 5px 10px 5px #9180f7;
+}
+
+#sex {
+background-color: #f293ef;
+box-shadow: 0px 5px 10px 5px #f293ef;
+}
+
+.SedgwickAve {
+
+font-family: "Sedwick+Ave"
+}
+
+#startsida {
+	position: relative;
+	background-image: url("../bilder/desert.jpeg");
+	background-repeat: no-repeat;
+}
+
+h1 {
+	text-align: center;
+	font-size: 67px;
+
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+}
+
+.class {
+	position: absolute;
+	top: 18%;
+	left: 45%;
+	transform: translateX(-40%);
+	color: #1c1c1c
+}
+
+.welcome {
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	transform: translateX(-45%);
+	color: #1c1c1c
+}
+
+.velcome {
+	position: absolute;
+	top: 23%;
+	left: 45%;
+	transform: translateX(-45%);
+	color: #1c1c1c
+}
+
+#pronomen {
+	position: relative;
+	background-image: url("../bilder/träd.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#läggningar {
+	position: relative;
+	background-image: url("../bilder/båt.jpg");
+}
+
+#övrigt {
+	position: relative;
+	background-image: url("../bilder/berg.jpeg");
+}
+
+#start-text {
+	font-size: 25px;
+}
