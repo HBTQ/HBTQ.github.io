@@ -1,0 +1,47 @@
+
+
+
+/*kommentaren här */
+body {
+	font-family: "Arial";
+}
+
+
+a {
+	background-color: white;
+	padding: 10px;
+	border-radius: 50px;
+	transition: all 0,5s;
+	text-decoration: none;
+
+}
+
+a:hover {
+	background-color: black;
+	border-radius: 0;
+	font-size: 30px;
+	color: white;
+}
+
+.box {
+	width: 50%;
+	height: 30%;
+	box-shadow:  5px 5px 10px #555; 
+}
+
+button {
+	background-color: transparent;
+	border: 2px solid #e55;
+	padding: 10px;
+	color: #e55;
+	font-family: "Roboto";
+	border-radius: 5px;
+	font-size: 20px;
+	transition: all 0,5s;
+
+}
+
+button:hover {
+	background-color: #e55;
+	color: white;
+}
